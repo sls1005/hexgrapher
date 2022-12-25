@@ -10,7 +10,7 @@ This is a hex-data visualizer. It turns hexadecimal data into graphs and tables 
 
 ### Usage
 
-This requires Python. (Version 3 or higher is recommended, while 2.7 is also supported.)
+This requires Python. (3.3 or later is recommended, while 2.7 is also supported.)
 
 The input data can be given as an argument. For example:
 ```sh

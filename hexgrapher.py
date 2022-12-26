@@ -26,7 +26,7 @@ if version_info.major < 3:
 def hashes(data, colorful = True):
     if len(data) % 2 == 1:
         data += '0'
-    assert len(data) % 2 == 0
+    #assert len(data) % 2 == 0
     if not colorful:
         print("[{}]".format(
             '#' * (len(data) // 2)
@@ -45,7 +45,7 @@ def table_up2down(data, colorful = True):
     columns = dict(zip(digits, range(0, 16)))
     if len(data) % 2 == 1:
         data += '#'
-    assert len(data) % 2 == 0
+    #assert len(data) % 2 == 0
     print('')
     if colorful:
         for d in digits:
@@ -67,7 +67,7 @@ def table_left2right(data, colorful = True):
     rows = dict(zip(digits, 16 * ['']))
     if len(data) % 2 == 1:
         data += '#'
-    assert len(data) % 2 == 0
+    #assert len(data) % 2 == 0
     print('')
     for i in range(0, len(data), 2):
         y = data[i]

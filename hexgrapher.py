@@ -9,9 +9,9 @@ usage = '''
 usage: hexgrapher.py [options] <data>
 
 options:
-    -h, --help                  Show this help message and exit.
-    -t <type>, --type <type>           The kind of graph to be generated. Possible values: hashes, table, table-up-to-down, table-left-to-right, where "hashes" (meaning a lot of "#") is the default, and "table" an alias for "table-up-to-down."
-    --no-color                  Disable colors.
+    -h, --help                          Show this help message and exit.
+    -t <type>, --type <type>            The kind of graph to be generated. Possible values: hashes, table, table-up-to-down, table-left-to-right, where "hashes" (meaning a lot of "#") is the default, and "table" an alias for "table-up-to-down."
+    --no-color                          Disable colors.
 
 The first command-line argument not starting with "-" (and not recognized as a graph type) is interpreted as the <data> which must be a hexadecimal number.
 If <data> is not given, this program reads stdin.
